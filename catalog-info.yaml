@@ -1,0 +1,14 @@
+# [added] Not part of the upstream library: this fork's software catalogue record (Backstage format,
+# backstage.io/docs/features/software-catalog/descriptor-format). Upstream files are unchanged.
+# GitHub topics mirror this file: library, upstream-fork, system-agent-build, domain-engineering.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rlm
+  description: "Fork of the Recursive Language Models inference library."
+  tags: [library, upstream-fork]
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:workshop
+  system: agent-build
