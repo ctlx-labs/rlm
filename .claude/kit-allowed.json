@@ -1,0 +1,13 @@
+{
+  "connectors": [
+    "GitHub"
+  ],
+  "plugins": [
+    "i-have-adhd"
+  ],
+  "skills": [
+    "no-ai-slop",
+    "ralph-coach",
+    "skill-creator"
+  ]
+}
