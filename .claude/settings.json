@@ -3,6 +3,8 @@
     "allow": [
       "Bash(git push:*)",
       "Bash(gh pr merge:*)",
+      "Bash(gh repo deploy-key add:*)",
+      "Bash(gh secret set:*)",
       "Bash(python3:*)",
       "Bash(pytest:*)",
       "Bash(bash templates/loop.sh:*)"
@@ -28,7 +30,7 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Edit|MultiEdit|Write",
+        "matcher": "Edit|MultiEdit|Write|Bash",
         "hooks": [
           {
             "type": "command",
